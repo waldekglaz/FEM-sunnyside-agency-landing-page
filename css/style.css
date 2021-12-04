@@ -670,4 +670,81 @@ textarea {
   line-height: 1.6875rem;
   letter-spacing: -0.11px;
 }
+
+.testimonials {
+  padding: 4rem 1.5rem;
+  text-align: center;
+}
+
+.testimonials__card {
+  margin-bottom: 4rem;
+}
+
+.testimonials__title {
+  color: #a7abae;
+  font-family: "Fraunces", serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 900;
+  margin-bottom: 4rem;
+}
+
+.card__img {
+  max-width: 4.5rem;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+
+.card__quote {
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: #5a636c;
+  margin-bottom: 2rem;
+  line-height: 2rem;
+}
+
+.card__author {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  margin-bottom: 0.5625rem;
+}
+
+.card__author-profession {
+  color: #808397;
+  font-size: 0.875rem;
+  letter-spacing: -0.1px;
+}
+
+.projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.projects__box {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 11.75rem;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.projects__box--box-1 {
+  background-image: url("../images/mobile/image-gallery-milkbottles.jpg");
+}
+
+.projects__box--box-2 {
+  background-image: url("../images/mobile/image-gallery-orange.jpg");
+}
+
+.projects__box--box-3 {
+  background-image: url("../images/mobile/image-gallery-cone.jpg");
+}
+
+.projects__box--box-4 {
+  background-image: url("../../images/mobile/image-gallery-sugar-cubes.jpg");
+}
 /*# sourceMappingURL=style.css.map */
