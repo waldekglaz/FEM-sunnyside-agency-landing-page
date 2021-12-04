@@ -1,0 +1,33 @@
+.services__box {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 33.8125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  padding: 3.6875rem 1.5rem;
+}
+.services__box--box-1 {
+  background-image: url(../images/mobile/image-graphic-design.jpg);
+  color: $clr-Dark-desaturated-cyan;
+}
+.services__box--box-2 {
+  background-image: url(../images/mobile/image-photography.jpg);
+  color: $clrVeryDarkDesaturatedBlue;
+}
+.services__title {
+  font-family: $fontDecorative;
+  font-weight: 900;
+  font-size: 1.75rem;
+  text-transform: capitalize;
+  margin-bottom: 1.6875rem;
+  letter-spacing: -0.2px;
+}
+.services__text {
+  font-weight: 600;
+  line-height: 1.6875rem;
+  letter-spacing: -0.11px;
+}
