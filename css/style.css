@@ -471,8 +471,55 @@ textarea {
   max-width: 7.6875rem;
 }
 
-.nav-bar__nav {
-  display: none;
+.nav-bar__nav.active {
+  display: block;
+  position: absolute;
+  left: 1.375rem;
+  right: 1.375rem;
+  top: 5.35rem;
+  min-height: 20.5625rem;
+  background-color: white;
+  text-align: center;
+  padding: 2.8125rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-bar__nav.active::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 20px 20px;
+  border-color: transparent transparent #fff transparent;
+  top: -20px;
+  right: 0;
+}
+
+.nav-bar__link {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #808397;
+  line-height: 1.5625rem;
+  letter-spacing: -0.14px;
+}
+
+.nav-bar__link--active {
+  font-family: "Fraunces", serif;
+  background-color: #fad400;
+  color: #24303e;
+  padding: 1rem 2rem;
+  border-radius: 1.75rem;
 }
 
 .nav-bar__hamburger {
