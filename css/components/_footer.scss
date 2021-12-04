@@ -1,0 +1,44 @@
+.footer {
+  padding: 4rem 2.4375rem 5rem;
+  background-color: $clrCyan;
+}
+.footer__img {
+  filter: invert(60%) sepia(45%) saturate(280%) hue-rotate(118deg)
+    brightness(90%) contrast(93%);
+  display: block;
+  margin: 0 auto 2.5rem;
+  min-width: 10.625rem;
+}
+.footer__nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5.5rem;
+}
+.footer__link {
+  text-decoration: none;
+  color: $clr-Dark-moderate-cyan;
+  font-weight: 600;
+  font-size: 1.125rem;
+  letter-spacing: -0.13px;
+}
+
+.footer__social-links {
+  display: flex;
+  justify-content: space-around;
+  max-width: 10.25rem;
+  margin: 0 auto;
+}
+
+.attribution {
+  padding-bottom: 1rem;
+  color: $clr-Very-dark-grayish-blue;
+  line-height: 1.5rem;
+  text-align: center;
+  background-color: $clrCyan;
+  font-family: $fontMain;
+  a {
+    font-family: $fontDecorative;
+    color: $clrRed;
+    text-decoration: none;
+  }
+}

@@ -747,4 +747,60 @@ textarea {
 .projects__box--box-4 {
   background-image: url("../../images/mobile/image-gallery-sugar-cubes.jpg");
 }
+
+.footer {
+  padding: 4rem 2.4375rem 5rem;
+  background-color: #90d4c6;
+}
+
+.footer__img {
+  -webkit-filter: invert(60%) sepia(45%) saturate(280%) hue-rotate(118deg) brightness(90%) contrast(93%);
+          filter: invert(60%) sepia(45%) saturate(280%) hue-rotate(118deg) brightness(90%) contrast(93%);
+  display: block;
+  margin: 0 auto 2.5rem;
+  min-width: 10.625rem;
+}
+
+.footer__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 5.5rem;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #458c7e;
+  font-weight: 600;
+  font-size: 1.125rem;
+  letter-spacing: -0.13px;
+}
+
+.footer__social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 10.25rem;
+  margin: 0 auto;
+}
+
+.attribution {
+  padding-bottom: 1rem;
+  color: #5a636c;
+  line-height: 1.5rem;
+  text-align: center;
+  background-color: #90d4c6;
+  font-family: "Barlow", sans-serif;
+}
+
+.attribution a {
+  font-family: "Fraunces", serif;
+  color: #fe7867;
+  text-decoration: none;
+}
 /*# sourceMappingURL=style.css.map */
