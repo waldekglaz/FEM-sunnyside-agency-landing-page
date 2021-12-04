@@ -471,6 +471,10 @@ textarea {
   max-width: 7.6875rem;
 }
 
+.nav-bar__nav {
+  display: none;
+}
+
 .nav-bar__nav.active {
   display: block;
   position: absolute;
