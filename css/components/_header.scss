@@ -49,6 +49,10 @@
   color: $clrGray;
   line-height: 1.5625rem;
   letter-spacing: -0.14px;
+  transition: 0.2s;
+  &:hover {
+    color: $clrBlack;
+  }
 }
 .nav-bar__link--active {
   font-family: $fontDecorative;
@@ -56,6 +60,10 @@
   color: $clrBlack;
   padding: 1rem 2rem;
   border-radius: 1.75rem;
+  &:hover {
+    background-color: $clrCyan;
+    color: $clr-White;
+  }
 }
 .nav-bar__hamburger {
   max-height: 1.125rem;
@@ -94,6 +102,11 @@
   .nav-bar__link--active {
     background-color: $clr-White;
     color: $clrBlack;
+    &:hover {
+      text-decoration: none;
+      color: $clr-White;
+      background-color: $clrCyan;
+    }
   }
   .header__title {
     margin: 6.5625rem 0 6rem;

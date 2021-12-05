@@ -516,6 +516,12 @@ textarea {
   color: #808397;
   line-height: 1.5625rem;
   letter-spacing: -0.14px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.nav-bar__link:hover {
+  color: #24303e;
 }
 
 .nav-bar__link--active {
@@ -524,6 +530,11 @@ textarea {
   color: #24303e;
   padding: 1rem 2rem;
   border-radius: 1.75rem;
+}
+
+.nav-bar__link--active:hover {
+  background-color: #90d4c6;
+  color: white;
 }
 
 .nav-bar__hamburger {
@@ -568,6 +579,11 @@ textarea {
   .nav-bar__link--active {
     background-color: white;
     color: #24303e;
+  }
+  .nav-bar__link--active:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #90d4c6;
   }
   .header__title {
     margin: 6.5625rem 0 6rem;
@@ -927,6 +943,7 @@ textarea {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 5.5rem;
+  text-align: center;
 }
 
 .footer__link {
@@ -935,6 +952,10 @@ textarea {
   font-weight: 600;
   font-size: 1.125rem;
   letter-spacing: -0.13px;
+}
+
+.footer__link:hover {
+  color: white;
 }
 
 .footer__social-links {
@@ -947,7 +968,14 @@ textarea {
   margin: 0 auto;
 }
 
+.footer__link-social:hover {
+  -webkit-filter: invert(90%) sepia(0%) saturate(0%) hue-rotate(184deg) brightness(310%) contrast(104%);
+          filter: invert(90%) sepia(0%) saturate(0%) hue-rotate(184deg) brightness(310%) contrast(104%);
+}
+
 .attribution {
+  max-width: 1440px;
+  margin: 0 auto;
   padding-bottom: 1rem;
   color: #5a636c;
   line-height: 1.5rem;
@@ -960,6 +988,10 @@ textarea {
   font-family: "Fraunces", serif;
   color: #fe7867;
   text-decoration: none;
+}
+
+.attribution a:hover {
+  color: #24303e;
 }
 
 @media (min-width: 768px) {
@@ -979,9 +1011,15 @@ textarea {
             align-items: center;
   }
   .footer__nav {
-    max-width: 18.75rem;
+    min-width: 18.75rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
-  .footer__link {
+  .footer__link-social {
     margin-right: 1.75rem;
   }
 }
