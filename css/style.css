@@ -468,7 +468,8 @@ textarea {
 }
 
 .nav-bar__logo {
-  max-width: 7.6875rem;
+  width: 7.6875rem;
+  height: 1.5rem;
 }
 
 .nav-bar__nav {
@@ -556,6 +557,8 @@ textarea {
 .header__arrow {
   display: block;
   margin: 0 auto;
+  max-height: 6.7175rem;
+  max-width: 1.875rem;
 }
 
 @media (min-width: 1024px) {
@@ -811,7 +814,8 @@ textarea {
 }
 
 .card__img {
-  max-width: 4.5rem;
+  width: 4.5rem;
+  height: 4.5rem;
   border-radius: 50%;
   margin-bottom: 2rem;
 }
@@ -932,7 +936,8 @@ textarea {
           filter: invert(60%) sepia(45%) saturate(280%) hue-rotate(118deg) brightness(90%) contrast(93%);
   display: block;
   margin: 0 auto 2.5rem;
-  min-width: 10.625rem;
+  width: 10.625rem;
+  height: 2.0625rem;
 }
 
 .footer__nav {

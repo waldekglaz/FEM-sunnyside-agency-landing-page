@@ -12,7 +12,8 @@
   justify-content: space-between;
 }
 .nav-bar__logo {
-  max-width: 7.6875rem;
+  width: 7.6875rem;
+  height: 1.5rem;
 }
 .nav-bar__nav {
   display: none;
@@ -82,6 +83,8 @@
 .header__arrow {
   display: block;
   margin: 0 auto;
+  max-height: 6.7175rem;
+  max-width: 1.875rem;
 }
 @media (min-width: 1024px) {
   .header {
