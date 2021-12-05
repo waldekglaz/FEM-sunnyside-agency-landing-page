@@ -21,3 +21,8 @@
 .projects__box--box-4 {
   background-image: url("../images/mobile/image-gallery-sugar-cubes.jpg");
 }
+@media (min-width: 768px) {
+  .projects {
+    flex-wrap: nowrap;
+  }
+}

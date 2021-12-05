@@ -2,7 +2,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 33.8125rem;
+  min-height: 28.125rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -30,4 +30,11 @@
   font-weight: 600;
   line-height: 1.6875rem;
   letter-spacing: -0.11px;
+}
+.services {
+  display: flex;
+}
+.services__box {
+  flex-basis: 50%;
+  max-height: 48rem;
 }

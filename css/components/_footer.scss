@@ -42,3 +42,17 @@
     text-decoration: none;
   }
 }
+@media (min-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer__nav {
+    max-width: 18.75rem;
+  }
+  .footer__link {
+    margin-right: 1.75rem;
+  }
+}

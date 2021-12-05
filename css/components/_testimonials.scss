@@ -35,3 +35,9 @@
   font-size: 0.875rem;
   letter-spacing: -0.1px;
 }
+
+@media (min-width: 768px) {
+  .testimonials__card {
+    padding: 0 10rem;
+  }
+}
