@@ -31,10 +31,24 @@
   line-height: 1.6875rem;
   letter-spacing: -0.11px;
 }
-.services {
-  display: flex;
+@media (min-width: 768px) {
+  .services {
+    display: flex;
+  }
+  .services__box {
+    flex-basis: 50%;
+    max-height: 48rem;
+  }
 }
-.services__box {
-  flex-basis: 50%;
-  max-height: 48rem;
+@media (min-width: 1024px) {
+  .services__box {
+    min-height: 37.5rem;
+    padding: 3.6875rem 11.9375rem;
+  }
+  .services__box--box-1 {
+    background-image: url("../images/desktop/image-graphic-design.jpg");
+  }
+  .services__box--box-2 {
+    background-image: url("../images/desktop/image-photography.jpg");
+  }
 }

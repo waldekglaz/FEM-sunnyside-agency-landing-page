@@ -41,3 +41,19 @@
     padding: 0 10rem;
   }
 }
+@media (min-width: 1024px) {
+  .testimonials {
+    padding: 10rem 10.3125rem;
+  }
+  .testimonials__title {
+    margin-bottom: 5.0625rem;
+  }
+  .testimonials__cards-container {
+    display: flex;
+    justify-content: space-between;
+    .testimonials__card {
+      padding: 0;
+      flex-basis: 21.875rem;
+    }
+  }
+}

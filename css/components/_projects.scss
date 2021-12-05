@@ -26,3 +26,21 @@
     flex-wrap: nowrap;
   }
 }
+
+@media (min-width: 1024px) {
+  .projects__box {
+    min-height: 27.9375rem;
+  }
+  .projects__box--box-1 {
+    background-image: url("../images/desktop/image-gallery-milkbottles.jpg");
+  }
+  .projects__box--box-2 {
+    background-image: url("../images/desktop/image-gallery-orange.jpg");
+  }
+  .projects__box--box-3 {
+    background-image: url("../images/desktop/image-gallery-cone.jpg");
+  }
+  .projects__box--box-4 {
+    background-image: url("../images/desktop/image-gallery-sugarcubes.jpg");
+  }
+}

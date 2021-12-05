@@ -547,6 +547,33 @@ textarea {
   margin: 0 auto;
 }
 
+@media (min-width: 1024px) {
+  .header {
+    min-height: 50rem;
+    background-image: url("../images/desktop/image-header.jpg");
+    padding-top: 3rem;
+  }
+  .nav-bar__nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .nav-bar__link {
+    margin-left: 2.9375rem;
+    color: white;
+  }
+  .nav-bar__hamburger {
+    display: none;
+  }
+  .nav-bar__link--active {
+    background-color: white;
+    color: #24303e;
+  }
+  .header__title {
+    margin: 6.5625rem 0 6rem;
+  }
+}
+
 .about-box__img {
   min-height: 19.5rem;
   background-size: cover;
@@ -582,6 +609,7 @@ textarea {
   line-height: 1.875rem;
   color: #808397;
   margin-bottom: 2rem;
+  letter-spacing: -0.13px;
 }
 
 .about-box__link {
@@ -624,28 +652,55 @@ textarea {
   border-radius: 1.75rem;
 }
 
-.about-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+@media (min-width: 768px) {
+  .about-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .about-box__img {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    padding: 0 1.5rem;
+  }
+  .about-box__text-box {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    text-align: left;
+  }
+  .about-box__img--transform {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
 }
 
-.about-box__img {
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
-  padding: 0 1.5rem;
-}
-
-.about-box__text-box {
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
-  text-align: left;
-}
-
-.about-box__img--transform {
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
+@media (min-width: 1024px) {
+  .about-box__text-box {
+    padding: 9.875rem 10.3125rem;
+  }
+  .about-box__title {
+    font-size: 2.5rem;
+    line-height: 3.0625rem;
+  }
+  .about-box__img {
+    padding: 10.3125rem;
+  }
+  .about-box__img--transform {
+    background-image: url(../images/desktop/image-transform.jpg);
+  }
+  .about-box__img--stand-out {
+    background-image: url("../images/desktop/image-stand-out.jpg");
+  }
 }
 
 .services__box {
@@ -695,16 +750,30 @@ textarea {
   letter-spacing: -0.11px;
 }
 
-.services {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+@media (min-width: 768px) {
+  .services {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .services__box {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    max-height: 48rem;
+  }
 }
 
-.services__box {
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
-  max-height: 48rem;
+@media (min-width: 1024px) {
+  .services__box {
+    min-height: 37.5rem;
+    padding: 3.6875rem 11.9375rem;
+  }
+  .services__box--box-1 {
+    background-image: url("../images/desktop/image-graphic-design.jpg");
+  }
+  .services__box--box-2 {
+    background-image: url("../images/desktop/image-photography.jpg");
+  }
 }
 
 .testimonials {
@@ -757,6 +826,28 @@ textarea {
   }
 }
 
+@media (min-width: 1024px) {
+  .testimonials {
+    padding: 10rem 10.3125rem;
+  }
+  .testimonials__title {
+    margin-bottom: 5.0625rem;
+  }
+  .testimonials__cards-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .testimonials__cards-container .testimonials__card {
+    padding: 0;
+    -ms-flex-preferred-size: 21.875rem;
+        flex-basis: 21.875rem;
+  }
+}
+
 .projects {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -794,6 +885,24 @@ textarea {
   .projects {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
+  }
+}
+
+@media (min-width: 1024px) {
+  .projects__box {
+    min-height: 27.9375rem;
+  }
+  .projects__box--box-1 {
+    background-image: url("../images/desktop/image-gallery-milkbottles.jpg");
+  }
+  .projects__box--box-2 {
+    background-image: url("../images/desktop/image-gallery-orange.jpg");
+  }
+  .projects__box--box-3 {
+    background-image: url("../images/desktop/image-gallery-cone.jpg");
+  }
+  .projects__box--box-4 {
+    background-image: url("../images/desktop/image-gallery-sugarcubes.jpg");
   }
 }
 
@@ -874,6 +983,13 @@ textarea {
   }
   .footer__link {
     margin-right: 1.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .website-container {
+    max-width: 1440px;
+    margin: 0 auto;
   }
 }
 /*# sourceMappingURL=style.css.map */
