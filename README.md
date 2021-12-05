@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/waldekglaz/FEM-sunnyside-agency-landing-page)
-- Live Site URL: [Add live site URL here](https://waldekglaz.github.io/FEM-sunnyside-agency-landing-page/)
+- Solution URL: [Code](https://github.com/waldekglaz/FEM-sunnyside-agency-landing-page)
+- Live Site URL: [Live](https://waldekglaz.github.io/FEM-sunnyside-agency-landing-page/)
 
 ## My process
 
